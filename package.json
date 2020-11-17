@@ -1,0 +1,37 @@
+{
+  "name": "websocket-multiplayer-demo",
+  "version": "1.0.0",
+  "description": "A multiplayer drawing demo with TypeScript/React client-side and Flask & WebSockets server-side",
+  "scripts": {
+    "client:dev": "webpack serve",
+    "build": "webpack --mode production"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/cywang117/websocket-multiplayer-demo.git"
+  },
+  "keywords": [],
+  "author": "Christina Wang",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/cywang117/websocket-multiplayer-demo/issues"
+  },
+  "homepage": "https://github.com/cywang117/websocket-multiplayer-demo#readme",
+  "dependencies": {
+    "@types/p5": "^0.9.1",
+    "p5": "^1.1.9",
+    "react": "^17.0.1",
+    "react-dom": "^17.0.1",
+    "styled-components": "^5.2.1"
+  },
+  "devDependencies": {
+    "@types/react": "^16.9.56",
+    "@types/react-dom": "^16.9.9",
+    "@types/styled-components": "^5.1.4",
+    "ts-loader": "^8.0.11",
+    "typescript": "^4.0.5",
+    "webpack": "^5.4.0",
+    "webpack-cli": "^4.2.0",
+    "webpack-dev-server": "^3.11.0"
+  }
+}
